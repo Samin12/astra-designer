@@ -1,0 +1,10 @@
+{
+  "name": "astra-designer",
+  "version": "1.0.0",
+  "description": "Build and deploy distinctive branded websites with optional AI media.",
+  "author": {
+    "name": "Samin Yasar"
+  },
+  "repository": "https://github.com/Samin12/astra-designer",
+  "license": "MIT"
+}

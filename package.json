@@ -1,0 +1,10 @@
+{
+  "name": "astra-designer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Branded website design and deployment skill by Samin Yasar",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs"
+  }
+}

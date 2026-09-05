@@ -1,0 +1,4 @@
+interface:
+  display_name: "Astra Designer"
+  short_description: "Build and deploy cinematic, branded websites"
+  default_prompt: "Use $astra-designer to build and deploy a distinctive website for my brand."

@@ -1,0 +1,14 @@
+{
+  "name": "astra-designer",
+  "owner": {
+    "name": "Samin Yasar"
+  },
+  "plugins": [
+    {
+      "name": "astra-designer",
+      "source": "./",
+      "description": "Branded website design and deployment",
+      "version": "1.0.0"
+    }
+  ]
+}
