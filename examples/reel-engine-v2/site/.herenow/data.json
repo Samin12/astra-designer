@@ -1,0 +1,36 @@
+{
+  "collections": {
+    "leads": {
+      "fields": {
+        "email": {
+          "type": "email",
+          "required": true
+        },
+        "consent": {
+          "type": "boolean",
+          "required": true
+        },
+        "consent_version": {
+          "type": "string",
+          "required": true,
+          "maxLength": 50
+        },
+        "source": {
+          "type": "string",
+          "maxLength": 60
+        },
+        "interest": {
+          "type": "string",
+          "maxLength": 100
+        }
+      },
+      "access": {
+        "read": "owner",
+        "insert": "public",
+        "update": "owner",
+        "delete": "owner"
+      },
+      "rateLimit": "5/hour/ip"
+    }
+  }
+}

@@ -6,11 +6,11 @@ A portable agent skill for building and deploying distinctive websites: dimensio
 
 ## Built with Astra Designer
 
-[**Samin Reel Engine: explore the live 3D sales site →**](https://open-yoga-hpnv.here.now/)
+[**Samin Reel Engine: explore the live 3D sales site →**](https://open-yoga-hpnv.here.now/?v=2)
 
-![Reel Engine sales site built with Astra Designer](examples/reel-engine/screenshots/desktop.png)
+![Reel Engine sales site built with Astra Designer](examples/reel-engine-v2/screenshots/desktop.png)
 
-A complete buyer journey from production friction to a real rendered reel, with an explorable pipeline, responsive 3D assembly, useful first prompts and working private email signup. [See the source, mobile examples, design decisions and deployment guide](examples/reel-engine/README.md).
+A complete buyer journey from production friction to a real rendered reel, with an explorable pipeline, scroll-driven photographic filmstrip, useful first prompts and working private email signup. [See the source, mobile examples, design decisions and deployment guide](examples/reel-engine-v2/README.md).
 
 ## Install
 
