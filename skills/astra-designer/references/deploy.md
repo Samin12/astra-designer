@@ -4,7 +4,7 @@ Default static hosting: here.now. Honor explicit hosting choices. Read current h
 
 Install the helper if needed: `npx skills add heredotnow/skill --skill here-now -g`.
 
-Prepare a public directory containing `index.html` and only the assets needed by the site. Keep build notes, raw media, credentials, lab screenshots, `.git` and dependencies outside it. Include LICENSE when distributing the bundled engine. Build framework projects first; use an appropriate runtime host for server features.
+Prepare a public directory containing `index.html` and only the assets needed by the site. Keep build notes, raw media, credentials, lab screenshots, `.git` and dependencies outside it. The only permitted hidden publish path is `.herenow/data.json`, a Site Data schema manifest. Use owner-only read/update/delete for email collections; verify a real insert and private owner readback before claiming capture works. Include LICENSE when distributing the bundled engine. Build framework projects first; use an appropriate runtime host for server features.
 
 ```bash
 node <skill>/scripts/deploy.mjs /absolute/path/to/site/public

@@ -4,6 +4,14 @@
 
 A portable agent skill for building and deploying distinctive websites: dimensional heroes, cinematic scroll, purposeful interactions, responsive layouts and visual checks. Bring your brand; Astra Designer handles the design-to-delivery workflow.
 
+## Built with Astra Designer
+
+[**Samin Reel Engine: explore the live 3D sales site →**](https://open-yoga-hpnv.here.now/)
+
+![Reel Engine sales site built with Astra Designer](examples/reel-engine/screenshots/desktop.png)
+
+A complete buyer journey from production friction to a real rendered reel, with an explorable pipeline, responsive 3D assembly, useful first prompts and working private email signup. [See the source, mobile examples, design decisions and deployment guide](examples/reel-engine/README.md).
+
 ## Install
 
 ```bash

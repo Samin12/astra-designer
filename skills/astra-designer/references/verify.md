@@ -266,3 +266,7 @@ curl -s -o /dev/null -w "%{http_code}
 ```
 
 A 404 on an asset you know exists is the fastest tell.
+
+## Native or custom-renderer pages
+
+For a site that does not mount the bundled engine, pass `--ready-selector` with its actual readiness selector (for example `body.scene-loaded`). For static native pages use `--ready-selector body`. Keep the default `html.sc-ready` for engine sites so startup failures remain visible. Mark native narrative sections with `data-sc-act="flow"` for contact-sheet sampling. Custom WebGL behavior still needs direct visual and interaction checks.

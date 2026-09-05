@@ -96,7 +96,7 @@ page.on("requestfailed", (r) => failed.push(`${r.failure()?.errorText} ${r.url()
 // engine's own ready signal and for the faces to land, since line splitting
 // measures real line boxes and is wrong before the real face is applied.
 await page.goto(URL, { waitUntil: "domcontentloaded" });
-await page.waitForSelector("html.sc-ready", { timeout: 15000 });
+await page.waitForSelector(arg("--ready-selector", "html.sc-ready"), { timeout: 15000 });
 await page.evaluate(() => document.fonts.ready);
 await page.waitForTimeout(700);
 

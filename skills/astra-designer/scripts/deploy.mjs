@@ -14,6 +14,13 @@ for(let i=0;i<args.length;i++){
 }
 function check(dir){for(const entry of fs.readdirSync(dir,{withFileTypes:true})){
  const p=path.join(dir,entry.name);
+ if(dir===root && entry.name==='.herenow' && entry.isDirectory()){
+ const contents=fs.readdirSync(p);
+ if(contents.length!==1 || contents[0]!=='data.json' || !fs.lstatSync(path.join(p,'data.json')).isFile()) throw new Error('Only .herenow/data.json may be published.');
+ const manifest=JSON.parse(fs.readFileSync(path.join(p,'data.json'),'utf8'));
+ if(!manifest.collections || typeof manifest.collections!=='object') throw new Error('Invalid Site Data manifest.');
+ continue;
+ }
  if(entry.isSymbolicLink()) throw new Error(`Do not publish symlinks: ${p}`);
  if(entry.name.startsWith('.') || /^(node_modules|lab|raw)$/i.test(entry.name) || /^(BRIEF|FINGERPRINTS)\.md$/i.test(entry.name) || /\.(pem|key)$/i.test(entry.name)) throw new Error(`Remove private or development files from publish directory: ${p}`);
  if(entry.isDirectory()) check(p);
