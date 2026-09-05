@@ -6,11 +6,11 @@ A portable agent skill for building and deploying distinctive websites: dimensio
 
 ## Built with Astra Designer
 
-[**Samin Reel Engine: explore the live 3D sales site →**](https://open-yoga-hpnv.here.now/?v=2)
+[**Samin Reel Engine: explore the live 3D sales site →**](https://open-yoga-hpnv.here.now/?v=3)
 
-![Reel Engine sales site built with Astra Designer](examples/reel-engine-v2/screenshots/desktop.png)
+![Director’s Cut: Reel Engine site using the original Scroll Craft engine](examples/directors-cut/screenshots/desktop.png)
 
-A complete buyer journey from production friction to a real rendered reel, with an explorable pipeline, scroll-driven photographic filmstrip, useful first prompts and working private email signup. [See the source, mobile examples, design decisions and deployment guide](examples/reel-engine-v2/README.md).
+Director’s Cut: a screening-room website using the original Scroll Craft engine, a chrome 3D hero, manually controllable exploded assembly, real reel playback and private email signup. [See the source, mobile examples, design decisions and deployment guide](examples/directors-cut/README.md).
 
 ## Install
 
